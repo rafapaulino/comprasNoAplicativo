@@ -20,6 +20,8 @@
 		6A1A8293163180BF00D95A9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A8274163180BF00D95A9A /* Foundation.framework */; };
 		6A1A829B163180C000D95A9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A8299163180C000D95A9A /* InfoPlist.strings */; };
 		6A1A829E163180C000D95A9A /* ComprasNoAplicativoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A829D163180C000D95A9A /* ComprasNoAplicativoTests.m */; };
+		6A1A82A81631812800D95A9A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A82A71631812800D95A9A /* StoreKit.framework */; };
+		6A1A82AB1631814F00D95A9A /* GerenciadorCompras.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A82AA1631814F00D95A9A /* GerenciadorCompras.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		6A1A829A163180C000D95A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1A829C163180C000D95A9A /* ComprasNoAplicativoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComprasNoAplicativoTests.h; sourceTree = "<group>"; };
 		6A1A829D163180C000D95A9A /* ComprasNoAplicativoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComprasNoAplicativoTests.m; sourceTree = "<group>"; };
+		6A1A82A71631812800D95A9A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6A1A82A91631814F00D95A9A /* GerenciadorCompras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GerenciadorCompras.h; sourceTree = "<group>"; };
+		6A1A82AA1631814F00D95A9A /* GerenciadorCompras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerenciadorCompras.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1A82A81631812800D95A9A /* StoreKit.framework in Frameworks */,
 				6A1A8273163180BF00D95A9A /* UIKit.framework in Frameworks */,
 				6A1A8275163180BF00D95A9A /* Foundation.framework in Frameworks */,
 				6A1A8277163180BF00D95A9A /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,9 @@
 		6A1A8263163180BF00D95A9A = {
 			isa = PBXGroup;
 			children = (
+				6A1A82A91631814F00D95A9A /* GerenciadorCompras.h */,
+				6A1A82AA1631814F00D95A9A /* GerenciadorCompras.m */,
+				6A1A82A71631812800D95A9A /* StoreKit.framework */,
 				6A1A8278163180BF00D95A9A /* ComprasNoAplicativo */,
 				6A1A8296163180C000D95A9A /* ComprasNoAplicativoTests */,
 				6A1A8271163180BF00D95A9A /* Frameworks */,
@@ -261,6 +270,7 @@
 				6A1A827F163180BF00D95A9A /* main.m in Sources */,
 				6A1A8283163180BF00D95A9A /* AppDelegate.m in Sources */,
 				6A1A8289163180BF00D95A9A /* ViewController.m in Sources */,
+				6A1A82AB1631814F00D95A9A /* GerenciadorCompras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

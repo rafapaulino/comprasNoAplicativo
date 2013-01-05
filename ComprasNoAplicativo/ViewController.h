@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GerenciadorCompras.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GerenciadorComprasDelegate>
+
+- (IBAction)buscarInfoProduto:(id)sender;
+
+- (IBAction)comprarProduto:(id)sender;
 
 @end
